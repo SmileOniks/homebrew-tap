@@ -3,16 +3,16 @@ cask "govm" do
   version "0.2.4"
 
   on_macos do
-    sha256 "7cfda513b21fb79ba61fc1aa78b173c2608335954f9fe823feecac76b1f6da7b"
+    sha256 "8b0ee880fd428878bcf8586b8f8fdfafb2ceeee5e5b64b0fbd99eeab32015d2c"
     url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "78b524c784ccf0a2afbbce8d88c2c728b1fe3bdc0bb277ac07a9264b1611d314"
+      sha256 "3d30d9ae93b8a73eea61badd37eaaf427efaeaa819e7dc8a2e8a3286d9933eec"
       url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9f4c4cf3121dbc509e62db0febd2a8afbcfc301fde449ce3c119e1660ec86c66"
+      sha256 "3e144d8eefbc2c420f3adf2346fd1ae3cfad97519c33db24d8244c16533c354a"
       url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Linux_x86_64.tar.gz"
     end
   end
