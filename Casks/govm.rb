@@ -4,22 +4,22 @@ cask "govm" do
 
   on_macos do
     sha256 "acaa72eedfa5468307e188574dc8e390625065e43e7adcb00c1cbf813b39d845"
-    url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Darwin_all.tar.gz"
+    url "https://github.com/SmileOniks/govm/releases/download/v#{version}/govm_#{version}_Darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
       sha256 "4d87eb330172abcc27eb584cb948e17b3c142f6097e5428b26000a427ca5ee2f"
-      url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Linux_arm64.tar.gz"
+      url "https://github.com/SmileOniks/govm/releases/download/v#{version}/govm_#{version}_Linux_arm64.tar.gz"
     end
     on_intel do
       sha256 "c728f9827036675a44c7b84d499f31532d6e86733a2e74cd161ce76cc66494de"
-      url "https://github.com/smileoniks-ctrl/govm/releases/download/v#{version}/govm_#{version}_Linux_x86_64.tar.gz"
+      url "https://github.com/SmileOniks/govm/releases/download/v#{version}/govm_#{version}_Linux_x86_64.tar.gz"
     end
   end
 
   name "govm"
   desc "GoVM - Go Version Manager"
-  homepage "https://github.com/smileoniks-ctrl/govm"
+  homepage "https://github.com/SmileOniks/govm"
 
   livecheck do
     skip "Auto-generated on release."
